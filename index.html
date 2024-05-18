@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resin Arts Store</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Resin Arts Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#custom-orders">Custom Orders</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Unique Gifts and Custom Resin Art</h2>
+                <p>Explore our beautiful collection of resin art pieces and order custom creations.</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="products" class="container">
+            <h2>Our Products</h2>
+            <!-- Products will be dynamically added here -->
+        </section>
+
+        <section id="custom-orders" class="container">
+            <h2>Custom Orders</h2>
+            <p>We offer custom resin art commissions. Please fill out the form below to get started on your unique piece.</p>
+            <form id="custom-order-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="art-type">Type of Art:</label>
+                <select id="art-type" name="art-type" required>
+                    <option value="wall-art">Wall Art</option>
+                    <option value="table">Table</option>
+                    <option value="jewelry">Jewelry</option>
+                    <option value="coaster">Coaster</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="details">Order Details:</label>
+                <textarea id="details" name="details" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <p>At Resin Arts Store, we specialize in creating unique resin art pieces. Our collection features a variety of gifts and custom art options, perfect for any occasion. Each piece is crafted with care and attention to detail, ensuring that every item is one of a kind.</p>
+            <p>Our mission is to bring the beauty of resin art to your home. Whether you're looking for a special gift or a custom art piece, we are here to help you create something truly special.</p>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Resin Arts Store</p>
+            <p>Follow us on:</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Include your JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
