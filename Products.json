@@ -7,19 +7,19 @@
                     "id": 1,
                     "name": "Resin Coaster Set",
                     "description": "Beautiful handmade resin coasters.",
-                    "image": "/Media/Product_demo.jpg"
+                    "image": "Media/Product_demo.jpg"
                 },
                 {
                     "id": 2,
                     "name": "Resin Jewelry",
                     "description": "Unique resin jewelry pieces.",
-                    "image": "/Media/Product_demo.jpg"
+                    "image": "Media/Product_demo.jpg"
                 },
                 {
                     "id": 3,
                     "name": "Resin Jewelry",
                     "description": "Unique resin jewelry pieces.",
-                    "image": "/Media/Product_demo.jpg"
+                    "image": "Media/Product_demo.jpg"
                 }
             ]
         },
@@ -30,19 +30,19 @@
                     "id": 4,
                     "name": "Custom Resin Wall Art",
                     "description": "Commission your own resin wall art.",
-                    "image": "/Media/Product_demo.jpg"
+                    "image": "Media/Product_demo.jpg"
                 },
                 {
                     "id": 5,
                     "name": "Custom Resin Table",
                     "description": "Create a unique resin table.",
-                    "image": "/Media/Product_demo.jpg"
+                    "image": "Media/Product_demo.jpg"
                 },
                 {
                     "id": 6,
                     "name": "Resin Jewelry",
                     "description": "Unique resin jewelry pieces.",
-                    "image": "/Media/Product_demo.jpg"
+                    "image": "Media/Product_demo.jpg"
                 }
             ]
         }
